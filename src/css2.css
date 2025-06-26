@@ -1,0 +1,385 @@
+body {
+    font-family: Arial;
+    margin: auto;
+
+  }
+  body p{
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+  }
+  header {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00252E;
+    padding:12px 208px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .gap-range{
+    display: flex;
+    gap: 16px;
+  }
+  header div a{
+    color: aliceblue;
+    text-decoration: none;
+    }  
+
+  nav{
+    padding:12px 208px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .nav-sub{
+    margin-top: 16px;
+  }
+  .nav-sub a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #606062;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 16px;
+  }
+
+/* landing page */
+.landing-page{
+    padding:80px 208px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Bagian kiri */
+
+.content-left {
+width: 600px;
+height: 553px;
+}
+
+.left-1 h5 {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #939395;
+}
+
+.left-1 .tagline {
+   margin-top: -18px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 150%;
+   font-family: "Open Sans", sans-serif;
+}
+
+/* .left-1 h4{
+    margin-top: -18px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+} */
+
+.left-1 .date {
+    margin-top: -24px;
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+    color: #939395;
+}
+
+.left-1 .date p{
+    font-size: 12px;
+}
+
+.left-2{
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Batas Kiri */
+
+/* Bagian Kanan */
+
+.content-right{
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.right-1{
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+hr{
+    margin-top: -20px;
+    border: 3px solid #019FC4;
+}
+
+.right-1 h4{
+    font-size: 14px;
+    width: 74px;
+    background-color: #019FC4;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+ /* Bagian Kanan - Right 2 */ 
+.right-2 h5 {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #939395;
+}
+
+.right-2 .tagline {
+    margin-top: -16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.right-2{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    width: 500px;
+}
+
+.right-2 .date {
+    margin-top: -28px;
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+    color: #939395;
+}
+
+.right-2 .date p{
+    font-size: 12px;
+}
+
+/* Batas right-2 */
+
+/* Bagian Kanan - Right 3 */ 
+.right-3 h5 {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #939395;
+}
+
+.right-3 .tagline {
+    margin-top: -16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.right-3{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    width: 500px;
+}
+
+.right-3 .date {
+    margin-top: -28px;
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+    color: #939395;
+}
+
+.right-3 .date p{
+    font-size: 12px;
+}
+
+/* Batas right-3 */
+
+/* Bagian Kanan - Right 3 */ 
+.right-4{
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+
+
+/* News */
+
+.page-news{
+    padding:80px 208px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+    font-family: "Open Sans", sans-serif;
+    height: 1080px;
+}
+.news-left {
+    width: 862px;
+    height: 553px;
+    }
+
+.news-left1{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top: -20px;
+    border: 3px solid #019FC4;
+}
+
+.news-left1 h4{
+    font-size: 14px;
+    width: 74px;
+    background-color: #019FC4;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+.news-left2{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.news-info{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.detail-info{
+    width: auto;
+}
+.detail-info p{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 400;
+    color: #939395;
+}
+
+.detail-info .desc{
+    margin-top: -16px;
+}
+
+.news-left2 h5 {
+        margin-top: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #939395;
+    }
+    
+    .news-left2 .tagline {
+        margin-top: -16px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .news-left2 .date {
+        margin-top: -28px;
+        font-weight: 400;
+        display: flex;
+        gap: 8px;
+        color: #939395;
+    }
+    
+    .news-left2 .date p{
+        font-size: 12px;
+    }
+
+    .news-right{
+        width: 220px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #004E60;
+        border-radius: 8px;
+        color: white;
+        padding-left: 16px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .news-right hr{
+        border: 1px solid white;
+        width: 206px;
+        margin-left: 0px;
+    }
+
+    .content-info p{
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+/* Batas News */
+
+/* footer */
+  footer{
+    background-color:rgb(246, 246, 246);
+    padding: 80px 208px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  footer .foot{
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .range-left{
+    margin-bottom: 40px;
+  }
+  
+  .tier3 a{
+    text-decoration: none;
+    margin-right:24px;
+  }
+  
+  .center a, .right a{
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: #019FC4;
+  width: 200px;
+  margin-bottom: 16px;
+  }
+  
+  .text-bottom{
+    margin-top: 80px;
+  }
+  
+  footer h6{
+    margin-bottom: 24px;
+  }
