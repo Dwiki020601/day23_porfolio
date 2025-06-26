@@ -11,13 +11,13 @@
             <img src="../img/logo d.png" alt="logo" width="32px" height="45.04px">
         </div>
         <div class="flex flex-row gap-12 font-semibold text-[16px]">
-          <a href="#" class="hover:text-cyan-600">Home</a>
-          <a href="#" class="hover:text-cyan-600">About Me</a>
-          <a href="#" class="hover:text-cyan-600">Experience</a>
-          <a href="#" class="hover:text-cyan-600">Portfolio</a>
+          <a href="#" class="hover:text-red-600">Home</a>
+          <a href="#summary" class="hover:text-red-600">Summary</a>
+          <a href="#exp" class="hover:text-red-600">Experience</a>
+          <a href="#portfolio" class="hover:text-red-600">Portfolio</a>
         </div>
         <div>
-            <a href="#" class="py-3 px-8 font-semibold border-1 rounded-[12px]">Contact Us</a>
+            <a href="#contact" class="py-3 px-8 font-semibold border-1 rounded-[12px]">Contact Us</a>
         </div>
     </nav>
 
@@ -57,32 +57,32 @@
 
     <div class="info max-w-6xl mx-auto">
         <div class="flex flex-col mt-30 gap-2">           
-            <p class="text-[44px]">Summary My Self..</p>
-            <div class="flex flex-row gap-10 items-center">
-            <div>
-                <img src="../img/3.png" alt="icon"> 
-            </div>
-            <div>
-                <div class="summary flex flex-col gap-6">
-                    <p class="text-[16px] text-gray-500">Summary</p>
-                    <p class="text-[24px] font-semibold">Who is Dwiki Airlambang?</p>
-                    <p class="text-[18px] text-gray-500">System Information the Faculty of Computer Science UPN Veteran Jakarta. Have interest in UI/UX Design, Graphic Design and Product  Management. Have Organizational Experience and Work Experience for 1+ as a UI/UX Designer and 2 year experience as Graphic Design.</p>
+            <p id="summary" class="text-[44px]">Summary My Self..</p>
+            <div class="flex flex-row gap-10 mt-[-24px] items-center">
+                <div class="w-1/3">
+                    <img src="../img/3.png" alt="icon"> 
                 </div>
-                <div class="flex flex-row gap-10 mt-4">
-                    <div>
-                        <p class="font-medium text-[32px]">3</p>
-                        <p class="text-[18px] text-gray-500">Project Complete</p>
+                <div class="w-2/3">
+                    <div class="summary flex flex-col gap-6">
+                        <p class="text-[16px] text-gray-500">Summary</p>
+                        <p class="text-[24px] font-semibold">Who is Dwiki Airlambang?</p>
+                        <p class="text-[18px] text-gray-500">An Information Systems graduate from UPN Veteran Jakarta with a strong interest in UI/UX Design, Graphic Design, and Front-End Development. Has over 1 year of experience as a UI/UX Designer and more than 2 years in Graphic Design. Currently enhancing front-end development skills through a bootcamp, building real-world projects using HTML, Tailwind CSS, JavaScript, and React. A passion for user interfaces supports a solid foundation in early-stage front-end development.</p>
                     </div>
-                    <div>
-                        <p class="font-medium text-[32px]">1</p>
-                        <p class="text-[18px] text-gray-500">Industry Covered</p>
+                    <div class="flex flex-row gap-10 mt-4">
+                        <div>
+                            <p class="font-medium text-[32px]">3</p>
+                            <p class="text-[18px] text-gray-500">Project Complete</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-[32px]">1</p>
+                            <p class="text-[18px] text-gray-500">Industry Covered</p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
 
-        <div class="work flex flex-col mt-10 gap-2">           
+        <div id="exp" class="work flex flex-col mt-10 gap-2">           
                 <div class="flex flex-col gap-6">
                     <p class="w-[210px] text-[24px] text-white py-2 px-4 bg-black rounded-[8px]">Work Experience</p>
                 </div> 
@@ -145,26 +145,70 @@
     </div>   
     </div>
 
-    <div class="max-w-6xl mx-auto flex flex-col mt-50 text-[72px] gap-2 items-center">           
+    <div id="portfolio" class="port max-w-6xl mx-auto">
+        <div class="flex flex-col mt-30 gap-2">           
+            <h3 class="text-[44px]">My Portfolio..</h3>
+            <p class="text-[18px] text-gray-500">I have many project for front end development with html, css, and tailwind.</p>
+        </div>
+
+        <div class="point flex flex-row mt-10 gap-8">           
+            
+            <div class="flex flex-col border-1 rounded-[16px] w-1/3">
+                <img src="../img/digital.jpg" alt="port1" class="rounded-t-[16px] h-[240px]">
+                <div class="flex flex-col gap-4 py-8 px-10">
+                    <h4 class="text-[24px] font-medium text-black ">Information Website About Digitalization</h4>
+                    
+                    <p>Content writing is the activity of planning, writing, and producing...   </p>
+                    
+                    <a href="port1.html" class="py-[14px] px-[20px] text-center bg-black hover:bg-red-700 ease-out text-white rounded-[12px]">Detail Information</a> 
+                </div>
+            </div>
+
+            <div class="flex flex-col border-1 rounded-[16px] w-1/3">
+                <img src="../img/food.jpg" alt="port1" class="rounded-t-[16px] h-[240px]">
+                <div class="flex flex-col gap-4 py-8 px-10">
+                    <h4 class="text-[24px] font-medium text-black ">Website for Food UMKM Promotion</h4>
+                    
+                    <p>The growth of UMKM is currently driving a good economy in economic...</p>
+                    
+                    <a href="port2.html" class="py-[14px] px-[20px] text-center bg-black hover:bg-red-700 ease-out text-white rounded-[12px]">Detail Information</a> 
+                </div>
+            </div>
+
+            <div class="flex flex-col border-1 rounded-[16px] w-1/3">
+                <img src="../img/news.jpg" alt="port2" class="rounded-t-[16px] h-[240px]">
+                <div class="flex flex-col gap-4 py-8 px-10">
+                    <h4 class="text-[24px] font-medium text-black ">General Information About the World</h4>
+                    
+                    <p>The rapid development of the digital world is driving economic growth...</p>
+                    
+                    <a href="port3.html" class="py-[14px] px-[20px] text-center bg-black hover:bg-red-700 ease-out text-white rounded-[12px]">Detail Information</a> 
+                </div>
+            </div>
+            
+        </div>  
+    </div>
+
+    <div class="max-w-6xl mx-auto flex flex-col mt-50 mb-32 h-110 text-[72px] gap-2 items-center">           
             <p>Let’s Create an</p>
             <p class="bg-black text-white py-2 px-12 rounded-[16px]">Amazing Project</p>
             <p>Togerther!</p>
     </div>
 
     <div class="relative">
-            <img src="../img/figma.png" class="absolute top-[-370px] left-[380px]" alt="icon" width="80px" height="80px">         
+            <img src="../img/figma.png" class="absolute top-[-560px] left-[380px]" alt="icon" width="80px" height="80px">         
     </div>
 
     <div class="relative">
-        <img src="../img/ai.png" class="absolute top-[-20px] left-[450px]" alt="icon" width="80px" height="80px">         
+        <img src="../img/ai.png" class="absolute top-[-260px] left-[450px]" alt="icon" width="80px" height="80px">         
     </div>
 
     <div class="relative">
-        <img src="../img/code.png" class="absolute top-[-370px] right-[380px]" alt="icon" width="80px" height="80px">         
+        <img src="../img/code.png" class="absolute top-[-560px] right-[380px]" alt="icon" width="80px" height="80px">         
     </div>
 
     <div class="relative">
-        <img src="../img/web.png" class="absolute top-[-20px] right-[450px]" alt="icon" width="80px" height="80px">         
+        <img src="../img/web.png" class="absolute top-[-260px] right-[450px]" alt="icon" width="80px" height="80px">         
     </div>
 
     <div class="slide max-w mx-auto py-8 bg-black text-white flex flex-col mt-36 gap-10 items-center relative">           
@@ -197,7 +241,7 @@
         </div>
     </div>
 
-    <div class="max-w-6xl mx-auto flex mt-30 flex-row justify-between items-center gap-8">           
+    <div class="max-w-6xl mx-auto flex mt-20 mb-10 flex-row justify-between items-center gap-8">           
         <div class="flex flex-row gap-5">
             <img src="../img/icon.png" alt="icon" width="50px" height="32px">
             <p class="text-gray-500 text-[32px] font-medium">
@@ -210,30 +254,7 @@
          </div>
     </div>
 
-    <section class="port max-w-6xl mx-auto py-18">
-        <h2 class="text-[36px] font-bold text-black ">
-            My Portfolio
-        </h2>
-
-        <div class="flex flex-col md:flex-row justify-between mt-12 gap-6 items-center md:gap-[32px]">
-            <div class="flex flex-col w-3/4 md:w-full px-4 md:px-0 rounded-[25px] shadow-md">
-                <img src="../img/Gyro Sandwhic.png" alt="gyro" class="w-full rounded-t-[35px]">
-                <div class="flex justify-between px-[16px] py-[8px] md:px-[32px] md:py-[16px]">
-                    <h4 class="text-xl md:text-2xl font-bold text-black ">
-                        Gyro Sandwhic
-                    </h4>
-                </div>
-                <div>
-                    <p></p>
-                </div>
-                <div class="flex justify-between px-[32px] pb-[16px]">
-                    <a href="" class="py-[14px] px-[20px] text-center bg-[#F48E28] text-white rounded-[35px]">Detail Information</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="max-w-6xl mx-auto py-6 gap-5">
+    <footer id="contact" class="max-w-6xl mx-auto py-6 gap-5">
         <div class="flex flex-row justify-between gap-20 my-12">
             <div class="flex flex-col gap-5 w-1/3">
                 <img src="../img/logo d.png" alt="" width="50px" height="50px">
@@ -243,26 +264,32 @@
             <div class="flex flex-row gap-20">
                 <div>
                     <h3 class="text-lg font-semibold text-black mb-4">Information</h3>
-                    <P class=" text-gray-500">Home</P>
-                    <P class=" text-gray-500">About Me</P>
-                    <P class=" text-gray-500">Contact Me</P>
+                    <div class="flex flex-col gap4">
+                        <a href="#" class="text-gray-500 hover:text-red-600">Home</a>
+                        <a href="#summary" class="text-gray-500 hover:text-red-600">Summary</a>
+                        <a href="#exp" class="text-gray-500 hover:text-red-600">Experience</a>
+                    </div>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold text-black mb-4">Portfolio</h3>
-                    <P class=" text-gray-500">Github</P>
-                    <P class=" text-gray-500">Behance</P>
-                    <P class=" text-gray-500">Dribble</P>
+                    <div class="flex flex-col gap4">
+                        <a href="#" class="text-gray-500 hover:text-red-600">Github</a>
+                        <a href="#" class="text-gray-500 hover:text-red-600">Behance</a>
+                        <a href="#" class="text-gray-500 hover:text-red-600">Dribble</a>
+                    </div>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold text-black mb-4">Social Media</h3>
-                    <P class=" text-gray-500">Instagram</P>
-                    <P class=" text-gray-500">Linkedln</P>
+                    <div class="flex flex-col gap4">
+                        <a href="https://www.linkedin.com/in/dwikiairlambang/" class="text-gray-500 hover:text-red-600">Linkedln</a>
+                        <a href="https://www.instagram.com/dwiki_airlambang/" class="text-gray-500 hover:text-red-600">Instagram</a>
+                    </div>
                 </div>
             </div>
         </div>
         <hr class="border-[1.5px] border-gray-400">
         <div class="mt-5 text-center text-gray-400">
-            <p>Copyright 2024</p>
+            <p>Copyright 2025</p>
         </div>
     </footer>
   </body>
